@@ -1,8 +1,8 @@
-                 # Video Subtitle Generator
+# Video Subtitle Generator
 
 A PyQt5-based desktop application that automatically generates subtitles for video files using OpenAI's Whisper model. The application supports batch processing of videos and multiple languages.
 
-                      ## Features
+## Features
 
 - Process single video files or entire directories
 - Support for multiple video formats (MP4, AVI, MOV, MKV, FLV, WMV)
@@ -16,7 +16,7 @@ A PyQt5-based desktop application that automatically generates subtitles for vid
 - Float16/32 precision options
 - Cancel processing capability
 
-                     ## Requirements
+  ## Requirements
 
 - Python 3.8+
 - PyQt5
@@ -25,7 +25,7 @@ A PyQt5-based desktop application that automatically generates subtitles for vid
 - PyTorch
 - Other dependencies (see requirements.txt)
 
-                       ## Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -42,7 +42,7 @@ git clone https://github.com/cybobug/Subtitle-Generator
 pip install -r requirements.txt
 ```
 
-                             ## Usage
+## Usage
 
 1. Run the application:
 ```bash
@@ -67,7 +67,7 @@ python subtitle_generator.py
    - Summary of successful/failed processes is displayed
    - Option to open output directory automatically
 
-                       ## Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -75,11 +75,11 @@ python subtitle_generator.py
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-                           ## License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-                    ## Acknowledgments
+## Acknowledgments
 
 - [OpenAI Whisper](https://github.com/openai/whisper) for the speech recognition model
 - [PyQt5](https://www.riverbankcomputing.com/software/pyqt/) for the GUI framework
